@@ -4,9 +4,6 @@ import numpy
 import os
 from pathlib import Path
 
-if __name__ == '__main__':
-    print("ERR")
-
 
 def load_my_data():
     data_folder = str(Path().absolute()) + "\\mydata"

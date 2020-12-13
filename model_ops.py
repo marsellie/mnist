@@ -1,8 +1,5 @@
 import tensorflow as tf
 
-if __name__ == '__main__':
-    print("ERR")
-
 
 def train(x, y):
     trained_model = tf.keras.models.Sequential()
