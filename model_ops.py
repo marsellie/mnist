@@ -14,7 +14,7 @@ def train(x, y):
     trained_model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
 
     trained_model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-    trained_model.fit(x, y, epochs=3)
+    trained_model.fit(x, y, epochs=10)
     trained_model.save('model')
     return trained_model
 

@@ -11,7 +11,9 @@ if __name__ == '__main__':
 def load_my_data():
     data_folder = str(Path().absolute()) + "\\mydata"
     files = []
+    map = dict({})
     for (dirpath, dirnames, filenames) in os.walk(data_folder):
+        for dirname in dirnames
         for filename in filenames:
             files.append("mydata/" + filename)
 
